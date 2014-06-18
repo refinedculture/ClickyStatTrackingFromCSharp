@@ -4,7 +4,7 @@
         WebRequest request = WebRequest.Create
        (
            "http://in.getclicky.com/in.php?" +
-           "site_id=" + ClickySiteID +  //click site id , found in preferences
+           "site_id=" + ClickySiteID +  //clicky site id , found in preferences
            "&sitekey_admin=" + ClickySiteAdminKey + //clicky site admin key, found in preferences
            "&ip_address=" + GetLocalIPAddressString() + //ip address of the user - used for mapping action trails
            "&type=custom" +
