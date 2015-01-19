@@ -9,7 +9,7 @@
            "&ip_address=" + GetLocalIPAddressString() + //ip address of the user - used for mapping action trails
            "&type=custom" +
            "&href=" + eventValue.Replace(" ", "_") + //string that contains whatever event you want to track/log
-           "&title=PBS Action" +
+           "&title=APPNAME Action" +
            "&type=click"
        );
 
